@@ -12,8 +12,6 @@ const pages = [
 
 const Layout = ({ children, selectedPage, onSetPage }) => {
 
-  // TODO: what's stored in children, selectedPage, and onSetPage?
-
   const renderPageLinks = () => {  {/*Dynamically generates a list of clickable sidebar links for each page*/}
    return pages.map(page => (  //Iterate of an array of page objects
        <li
