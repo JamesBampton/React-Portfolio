@@ -25,7 +25,7 @@ const NavBar = () => {
               <img src="/docs-but-sm2.png" alt="Portfolio" style={styles.icons} />
             </Nav.Link> 
             <Nav.Link href="#Link">
-              <img src="/git-but-sm2.png" alt="Portfolio" style={styles.icons} />
+              <img src="/git-but-sm2.png" alt="Portfolio" style={styles.icons2} />
             </Nav.Link>           
             </Nav>
           </Navbar.Collapse>
@@ -54,6 +54,15 @@ const styles = {
       transform: 'translateY(67px)',
       transition: 'transform 0.3s ease',
   },
+
+   icons2: {
+      width: '100px',
+      height: '100px',
+      transform: 'translateY(67px)',
+      transition: 'transform 0.3s ease',
+      marginBottom: '70px'
+  },
+
   brand: {
       width: '70px',
       height: '70px',

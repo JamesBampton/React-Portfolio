@@ -27,6 +27,7 @@ const Layout = ({ children, selectedPage, onSetPage }) => {
     ));
   }
 
+
 // This navbar is built and call the renderPageLinks function, which builds the list of navlinks based on items in the pages array. 
   return (
     <div style={styles.container}>
@@ -74,7 +75,7 @@ const styles = {
     backgroundColor: '#97928fff',
     /*opacity: 0.5,*/
     padding: '5px',
-    paddingTop: '104px',
+    paddingTop: '10px',
   },
   content: {
     flex: 1,

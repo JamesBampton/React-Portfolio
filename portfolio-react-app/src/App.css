@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.contain > div {
+  background-color: #ceaa08;
+  width: 10px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
