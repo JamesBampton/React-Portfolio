@@ -6,7 +6,6 @@ const pages = [
   { name: 'About', key: 'about' },
   { name: 'Work', key: 'work' },
   { name: 'LifeStyle', key: 'life' },
-  { name: 'GitHub', key: 'github' },
   { name: 'Contact', key: 'contact' },
 ]
 
@@ -32,7 +31,7 @@ const Layout = ({ children, selectedPage, onSetPage }) => {
   return (
     <div style={styles.container}>
       {/* Adds Navigation menu and executes enderPageLink to dynamically add the list items*/}
-      <NavBar /> 
+      <NavBar selectedPage={selectedPage} onSetPage={onSetPage}/> 
 
       <div style={styles.main}>
         {/* Sidebar */}

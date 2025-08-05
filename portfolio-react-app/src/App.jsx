@@ -3,16 +3,17 @@ import { useState } from 'react';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
 import WorkPage from './pages/WorkPage';
-import GithubPage from './pages/GitHubPage';
+import LifeStylePage from './pages/LifeStylePage';
+import ContactPage from './pages/ContactPage';
+
 
 // Import Nav Pages
 import WebPage from './pages/WebPage';
 import IconsPage from './pages/IconsPage';
 import ImagesPage from './pages/ImagesPage';
 import DocsPage from './pages/DocsPage';
-import GithubPage2 from './pages/GitHubPage2';
+import GithubPage from './pages/GitHubPage';
 
 function App() {
 
@@ -25,15 +26,15 @@ function App() {
 
       {page === 'home' && <HomePage />}
       {page === 'about' && <AboutPage />}
-      {page === 'contact' && <ContactPage />}
       {page === 'work' && <WorkPage />}
-      {page === 'github' && <GithubPage />}
-
+      {page === 'life' && <LifeStylePage />}
+      {page === 'contact' && <ContactPage />}
+    
        {page === 'web' && <WebPage />}
        {page === 'icons' && <IconsPage />}
        {page === 'images' && <ImagesPage />}
-       {page === 'dosc' && <DocsPage />}
-       {page === 'github2' && <GithubPage2 />}
+       {page === 'docs' && <DocsPage />}
+       {page === 'github' && <GithubPage />}
 
     </Layout>
   );

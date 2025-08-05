@@ -1,0 +1,1017 @@
+body {
+  font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+  background-color:white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: 'Nunito Semibold';
+  text-align: center;
+}
+
+header {
+  width:100%;
+  background-color:white;
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  padding:10px;
+  overflow:hidden;
+}
+div.goof {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	background-color:white;
+    color:blue;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+	
+}
+h1 {
+  font-size:2em;
+  margin:0;
+  padding:0;
+  padding-top:10px;
+  text-align:center;
+}
+
+p {
+   font-size:0.8em;
+   text-align: center;
+   
+}
+   
+.active{
+   	background-color: #4CAF50;
+   	color: black;
+}
+   
+.scrollable{
+  	height: 300px;
+  	overflow: scroll;
+  	
+ } 
+
+.headsup {
+  font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+  width:100%;
+  color:#009fdb;
+  font-size: 14px;
+}
+
+.inner-headsup {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #FFB000;
+	font-size: 16px;
+} 
+
+.wordy {
+  font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;	
+  width:100%;
+  color:#009FDB;
+  font-size: 28px;
+} 
+
+.wordy-small {
+  font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;	
+  width:100%;
+  color:#795548;
+  font-size: 12px;
+  font-weight: bold;
+} 
+
+.table-header {
+  font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;	
+  width:100%;
+  color:#795548;
+  font-size: 12px;
+  font-weight: bold;
+} 
+
+.underfont {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 16px;
+}
+
+.underfont-small {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #FFB000;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.underfont-small-color {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #AF29BB;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+} 
+
+.detailfont-small {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.detailfont-small-orange {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #FFB000;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.detailfont-small-blue {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #009FDB;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.missionfont {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #009FDB;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.quote-font {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 36px;
+	text-align:center;
+}
+
+.footer{
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 10px;
+	text-align: center;
+}
+
+body {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-family: 'Nunito Semibold';
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	background-color: white;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	overflow: hidden;
+}
+
+/*footer {
+    background-color: dimgrey;
+}*/
+
+div.goof {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	background-color: white;
+	color: blue;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.6px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.3px;
+}
+
+p {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.active {
+	background-color: white;
+	color: black;
+}
+
+.scrollable {
+	height: 300px;
+	overflow: scroll;
+}
+
+.headsup {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #009FDB;
+	font-size: 24px;
+}
+
+.step-text {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #AF29BB;
+	font-size: 15px;
+}
+
+.wordy {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #795548;
+	font-size: 28px;
+}
+
+.wordy-small {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #795548;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.underfont {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 16px;
+}
+
+.underfont-small {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.detailfont-small {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 12px;
+	text-align: center;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.footer {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 10px;
+	text-align: center;
+}
+
+.box {
+	position: relative;
+	top: 50%;
+	left: 3%;
+	right: 0%;
+	transform: translate(-10%, -10%);
+	height: 370px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+	float: left;
+	margin: 50px;
+	padding: 10px;
+	width: 50%;
+}
+
+.box2 {
+	position: relative;
+	top: 50%;
+	left: 6.33%;
+	right: 0%;
+	transform: translate(-10%, -10%);
+	height: 370px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
+	float: left;
+	margin: 50px;
+	padding: 10px;
+	width: 41%;
+}
+
+.boximg {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.4s;
+	z-index: 2;
+	border-radius: 5px;
+	background: rgba(2, 40, 174, 0.40);
+}
+
+.boximg2 {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.4s;
+	z-index: 2;
+	border-radius: 5px;
+	background: #0057B8;
+}
+
+.box:hover .boximg {
+	transform: translateY(0px);
+}
+
+.box2:hover .boximg2 {
+	transform: translateY(0px);
+}
+
+.boximg img {
+	transition: 0.4s;
+}
+
+.boximg2 img {
+	transition: 0.4s;
+}
+
+.box:hover .boximg {
+	opacity: 0.4;
+}
+
+.box2:hover .boximg2 {
+	opacity: 0.4;
+}
+
+.box:hover .icons li a {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.box2:hover .icons li a {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.box .icons li a .fa {
+	transition: 0.4s;
+	font-size: 20px;
+}
+
+.box2 .icons li a .fa {
+	transition: 0.4s;
+	font-size: 20px;
+}
+
+.box .icons li a:hover .fa {
+	transform: rotateY(360deg);
+}
+
+.box2 .icons li a:hover .fa {
+	transform: rotateY(360deg);
+}
+
+.box .icons li:nth-child(1) a {
+	transition-delay: 0s;
+}
+
+.box2 .icons li:nth-child(1) a {
+	transition-delay: 0s;
+}
+
+.box .icons li:nth-child(2) a {
+	transition-delay: 0.2s;
+}
+
+.box2 .icons li:nth-child(2) a {
+	transition-delay: 0.2s;
+}
+
+.box2 .icons li:nth-child(3) a {
+	transition-delay: 0.4s;
+}
+
+.box2 .icons li:nth-child(4) a {
+	transition-delay: 0.6s;
+}
+
+.box2 .icons li:nth-child(5) a {
+	transition-delay: 0.8s;
+}
+
+.footer-style {
+	background-color: white;
+}
+
+.p-heading-heavy {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Segoe UI,Arial,sans-serif;
+}
+
+.p-heading-light {
+	font-size: 25px;
+	color: rgba(2, 40, 174, 0.40);
+	font-family: Segoe UI,Arial,sans-serif;
+}
+
+.left-text {
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+	font-size: 12px;
+	text-align: left;
+}
+
+.para-left {
+	/*border-bottom:5px dotted;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 16px;
+	width: 82%; /* whatever width you want */
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.para-centered {
+	/*border-bottom:5px dotted;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 16px;
+	width: 70%; /* whatever width you want */
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: #cad1d1;
+}
+
+p .para-left {
+	/*border-bottom:5px dotted;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 16px;
+	width: 82%; /* whatever width you want */
+	font-family: "ATT Aleck Cd", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.grid-container-stars {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.grid-container-stars > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	}
+
+.box-left {
+	grid-area: leftBox;
+	width: 50%;
+}
+
+.box-right {
+	grid-area: rightBox;
+	width: 50%;
+}
+
+.grid-container-folio {
+	display: grid;
+	grid-template: 'leftBox rightBox';
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 500px 500px;
+	grid-gap: 0px;
+	background-color: white;
+	padding: 0px;
+	width: 100%;
+}
+
+.grid-item-folio {
+	/*background-color: rgba(255, 255, 255, 0.8);*/
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.grid-container-folio > div {
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+
+.form-style {
+	font-size: 12px;
+}
+
+/* ----------- Form style ----------- */
+input, textarea {
+	border: solid 1px #b7ddf2;
+	border-radius: 3px;
+	padding: 10px;
+	width: 200px;
+	color: #999999;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+.col-25 {
+	float: left;
+	width: 10%;
+	margin-top: 6px;
+}
+
+.col-50 {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+}
+
+.form-container {
+	margin: 0;
+	font-family: -apple-system, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+	/*padding: 30px;*/
+	padding-bottom: 10px;
+	/*border: 1px solid #ced4da;*/
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+input[type=text], select, textarea {
+	width: 60%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+
+/* ----------- My Form ----------- */
+.myform {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+textarea {
+	margin: 0 auto;
+	width: 400px;
+	height: 150px;
+	padding: 14px;
+	line-height: 18px;
+	max-width: 400px;
+}
+
+	input:hover, textarea:hover,
+	input:focus, textarea:focus {
+		border-color: #c9c9c9;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+		-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+.form label {
+	margin-left: 10px;
+	color: #999999;
+}
+
+/*.content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(1, minmax(200px, auto));
+	margin: 0 auto;
+	grid-gap: 10px;
+}*/
+
+/*.content .layer {
+		position: absolute;
+		top: calc(100% -2px);
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(#ffffff, #CFD8DC);
+		z-index: 1;
+		opacity: 0.3;
+		transition: 0.5s;
+}*/
+
+.content-folio {
+	display: ms-grid;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(1, minmax(200px, auto));
+	margin: 0 auto;
+	grid-gap: 10px;
+}
+
+.content-folio .layer {
+	position: absolute;
+	top: calc(100% -2px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#ffffff, #CFD8DC);
+	z-index: 1;
+	opacity: 0.3;
+	transition: 0.5s;
+}
+
+/*.content .layer {
+	position: absolute;
+	top: calc(100% -2px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}*/
+
+/*.content .card {
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+	background: #333;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px;
+	border-radius: 10px;
+	background: #fff;
+	-webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}*/
+
+.projectcontent {
+	display: ms-grid;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	/*grid-template-rows: repeat(1, minmax(200px, auto));*/
+	margin: 0 auto;
+	grid-gap: 10px;
+}
+
+.projectcontent .projectcard {
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+		background: #333;
+		padding: 0px;
+		box-sizing: border-box;
+		text-align: center;
+		border: 1px;
+		border-radius: 20px;
+		background: teal;
+		-webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+		box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+		overflow: hidden;
+}
+
+.details {
+	position: absolute;
+	bottom: 30px;
+	left: 40px;
+	background: #fff;
+	z-index: 4;
+	width: 100%;
+	height: 70px;
+	box-sizing: border-box;
+	padding: 6px;
+	z-index: 1;
+}
+
+.details h2 {
+		margin: 10px 0 0;
+		padding: 0;
+		font-size: 14px;
+		text-align: center;
+}
+
+.details h2 span {
+			color: rgba(2, 40, 174, 0.90);
+			font-size: 12px;
+			opacity: .8;
+			text-align: center;
+}
+
+.standard-font {
+	color: #80cbc4;
+	font-size: 16px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.table-font {
+	color: #80cbc4;
+	font-size: 12px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.button-style {
+	background: lightbrown;
+	border-radius: 30px;
+	width: 15em;
+	height: 6em;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: 900;
+	position: relative;
+	z-index: 100;
+	height: 30px;
+	width: 100px;
+	top: -92px;
+	padding-top: 0px
+}
+
+.button-style h3 {
+		vertical-align: center;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		padding-top: 0px;
+}
+
+.myTable {
+	width: 80%;
+	table-layout: fixed;
+	height: 40px;
+	text-align: left;
+	padding: 10px;
+}
+
+.table-font {
+	color: #80cbc4;
+	font-size: 12px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.header-bar {
+	background: #bcc4c7ff;
+}
+
+.para {
+	/*border-bottom:5px dotted;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 16px;
+	width: 82%; /* whatever width you want */
+	font-family: Montserrat, sans-serif;
+	color: #bcc4c7ff;
+}
+
+.para .ul {
+		/*border-bottom:5px dotted;*/
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		font-size: 16px;
+		width: 82%; /* whatever width you want */
+		font-family: Montserrat, sans-serif;
+		color: #bcc4c7ff;
+	}
+
+.para-head {
+	/*border-bottom:5px dotted;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 16px;
+	font-style: "bold";
+	width: 70%; /* whatever width you want */
+	font-family: Montserrat, sans-serif;
+}
+
+.table-width {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.box-padding {
+	margin-left: 5%;
+	padding-left: 0px;
+	margin-right: 5%;
+	padding-right: 0px;
+}
+
+.box2-padding {
+	margin-left: 10%;
+	padding-left: 0px;
+	margin-right: 10%;
+	padding-right: 0px;
+}
+
+/* Container holding the image and the floating text */
+.floating-box-test {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+/* Centered text inside container*/
+.centered {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	padding: 0px;
+	font-size: 50px;
+	font-family: Montserrat, sans-serif;
+	transform: translate(-50%, -40%);
+	background-color: rgba(0, 0, 0, 0.23);
+}
+
+/* Centered text inside carousel*/
+.carousel-centered {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	padding: 0px;
+	font-size: 50px;
+	font-family: Montserrat, sans-serif;
+	transform: translate(-50%, -40%);
+	background-color: rgba(0, 0, 0, 0.23);
+}
+
+.steps {
+	position: absolute;
+	top: 44%;
+	left: 50%;
+	padding: 0px;
+	font-size: 25px;
+	font-family: Montserrat, sans-serif;
+	transform: translate(-50%, -75%);
+	background-color: rgba(0, 0, 0, 0);
+	color: #FFB000;
+}
+
+.titles {
+	color: #FFB000;
+	font-size: 16px;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.table-details {
+	color: black;
+	font-size: 14px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 100%;
+	background-color: #2196F3;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+
+/*.content {
+	display: ms-grid;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-rows: repeat(1, minmax(200px, auto));
+	margin: 0 auto;
+	grid-gap: 10px;
+}*/
+
+/*.content .layer {
+	position: absolute;
+	top: calc(100% -2px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#ffffff, #CFD8DC);
+	z-index: 1;
+	opacity: 0.3;
+	transition: 0.5s;
+}*/
+
+/*.content .layer {
+	position: absolute;
+	top: calc(100% -2px);
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}*/
+
+.content .card {
+	position: relative;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	background: #333;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	box-sizing: border-box;
+	text-align: center;
+	border: 1px;
+	border-radius: 10px;
+	background: #fff;
+	-webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.container { position: relative; }
+.container img { display: block; }
+/*.container .fa-download { position: absolute; bottom:0; left:0; }*/
+
+.container-carousel {position: relative;}
+.container-carousel img {display: inline;}
+
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	display: inline-flex;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+   	
+   	
+   

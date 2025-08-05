@@ -1,7 +1,7 @@
 // HomePage.js
 import React from 'react';
 
-const WorkPage = () => {
+const WebPage = () => {
   return (
     <div>
       <h2>Welcome to the Work Experience Page</h2>
@@ -19,4 +19,4 @@ const styles = {
 
   };
 
-export default WorkPage;
+export default WebPage;

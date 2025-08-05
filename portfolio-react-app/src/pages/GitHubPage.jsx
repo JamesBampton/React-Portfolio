@@ -14,7 +14,7 @@ import React, {useState, useEffect} from 'react'; // import react library and tw
 
 export default GitHubPage; */
 
-const HomePage = () => {  
+const GitHubPage = () => {  
   const [items, setItems] = useState([]); // create empty array
   const username = "JamesBampton"
     
@@ -32,7 +32,7 @@ const HomePage = () => {
   return (
 
     <div>
-      <h2>Welcome to the Git Page</h2>
+      <h2>Welcome to the new Git Page</h2>
       <p>This is the main content of the home page.</p>
 
     <ul>
@@ -48,4 +48,4 @@ const HomePage = () => {
   );
 }; 
 
-export default HomePage;
+export default GitHubPage;

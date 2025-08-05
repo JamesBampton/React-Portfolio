@@ -2,7 +2,7 @@ import React from 'react';
 //import { Link } from 'react-router-dom';
 import {Container, Navbar, Nav} from 'react-bootstrap';
 
-const NavBar = () => {
+const NavBar = ({ selectedPage, onSetPage }) => {
   return (
     <Navbar expand="lg" style={styles.navbar}className="navbar navbar-light">
       <Container id="container" className="d-flex justify-content-between align-items-center" style={styles.conty}>
@@ -12,19 +12,19 @@ const NavBar = () => {
           <Navbar.Toggle style={styles.toggler} aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-            <Nav.Link href="#home">
+            <Nav.Link onClick={() => onSetPage('web')}>
               <img src="/web-but-sm2.png" alt="Portfolio" style={styles.icons} />
             </Nav.Link>
-            <Nav.Link href="#home">
+            <Nav.Link onClick={() => onSetPage('icons')}>
               <img src="/icons-but-sm2.png" alt="Portfolio" style={styles.icons} />
               </Nav.Link>
-            <Nav.Link href="#home">
+            <Nav.Link onClick={() => onSetPage('images')}>
               <img src="/img-but-sm2.png" alt="Portfolio" style={styles.icons} />
               </Nav.Link>
-            <Nav.Link href="#Link">
+            <Nav.Link onClick={() => onSetPage('docs')}>
               <img src="/docs-but-sm2.png" alt="Portfolio" style={styles.icons} />
             </Nav.Link> 
-            <Nav.Link href="#Link">
+            <Nav.Link onClick={() => onSetPage('github')}>
               <img src="/git-but-sm2.png" alt="Portfolio" style={styles.icons2} />
             </Nav.Link>           
             </Nav>
@@ -60,7 +60,7 @@ const styles = {
       height: '100px',
       transform: 'translateY(67px)',
       transition: 'transform 0.3s ease',
-      marginBottom: '70px'
+      marginBottom: '0px'
   },
 
   brand: {
