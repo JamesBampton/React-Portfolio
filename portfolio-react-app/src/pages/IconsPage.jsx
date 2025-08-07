@@ -9,6 +9,7 @@ import "../assets/css/w3-theme-teal.css";
 import "../assets/css/carousel.css";
 import "../assets/css/cardspin-test.css";
 import "../assets/css/flip.css";
+import myImage from "../../public/ic-back.png";
 
 // ...existing code...
 const IconsPage = () => {
@@ -21,7 +22,10 @@ const IconsPage = () => {
             <br />
             <br />
             <br />
-            <div className="centered myfontL">
+            <div
+              className="centered myfontL"
+              style={{ backgroundImage: "url(${myImage})" }}
+            >
               ICONS & LOGOS
               <br />
               <p className="myfontS">Designs</p>
@@ -53,14 +57,53 @@ const IconsPage = () => {
               }}
             >
               <img
-                src="images/images/ng-blue.png"
+                src="./icons.png"
                 className="w3-circle"
                 style={{
-                  width: 200,
-                  marginBottom: 10,
+                  width: 160,
+                  marginBottom: 40,
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
+                  zIndex: 1,
+                  borderRadius: "10px",
+                }}
+                alt="Avatar"
+              />
+            </p>
+            <div className="details">
+              <h2>
+                ICON SET
+                <br />
+                <span style={{ color: "#a05b2e" }}>
+                  Designed for a network management system
+                </span>
+              </h2>
+            </div>
+          </div>
+          <div className="card">
+            <div className="layer"></div>
+            <p
+              className="w3-center"
+              style={{
+                paddingBottom: 0,
+                height: "90%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src="./ng-blue.png"
+                className="w3-circle"
+                style={{
+                  width: 160,
+                  marginBottom: 40,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  zIndex: 1,
+                  borderRadius: "10px",
                 }}
                 alt="Avatar"
               />
@@ -69,6 +112,77 @@ const IconsPage = () => {
               <h2>
                 Application Logo
                 <br />
+                <span>Network Tool Brand logo</span>
+              </h2>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="layer"></div>
+            <p
+              className="w3-center"
+              style={{
+                paddingBottom: 0,
+                height: "90%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src="./ng-logo.png"
+                className="w3-circle"
+                style={{
+                  width: 160,
+                  marginBottom: 40,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  zIndex: 1,
+                  borderRadius: "10px",
+                }}
+                alt="Avatar"
+              />
+            </p>
+            <div className="details">
+              <h2>
+                Application Logo
+                <br />
+                <span>Network Tool Brand logo</span>
+              </h2>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="layer"></div>
+            <p
+              className="w3-center"
+              style={{
+                paddingBottom: 0,
+                height: "90%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src="./ng-log0.png"
+                className="w3-circle"
+                style={{
+                  width: 160,
+                  marginBottom: 40,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  zIndex: 1,
+                  borderRadius: "10px",
+                }}
+                alt="Avatar"
+              />
+            </p>
+            <div className="details">
+              <h2>
+                Application Logo
                 <br />
                 <span>Network Tool Brand logo</span>
               </h2>
@@ -113,7 +227,9 @@ const IconsPage = () => {
                     <h2>
                       NOTES
                       <br />
-                      <span>Created with a mix of graphics packages</span>
+                      <span style={{ color: "#a05b2e" }}>
+                        Created with a mix of graphics packages
+                      </span>
                     </h2>
                   </div>
                 </div>
@@ -127,7 +243,7 @@ const IconsPage = () => {
               data-slide="prev"
             >
               <img
-                src="images/myglyph-left.png"
+                src="./myglyph-left.png"
                 style={{ width: "30%", paddingTop: 80 }}
               />
               <span className="sr-only">Previous</span>
@@ -138,7 +254,7 @@ const IconsPage = () => {
               data-slide="next"
             >
               <img
-                src="images/myglyph-right.png"
+                src="./myglyph-right.png"
                 style={{ width: "30%", paddingTop: 80, paddingLeft: 0 }}
               />
               <span className="sr-only">Next</span>
